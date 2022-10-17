@@ -1,0 +1,149 @@
+#elem {
+	transition-duration: 1s;
+	transition-property: width;
+	border: 1px solid red;
+	height: 100px;
+	width: 300px;
+}
+#elem:hover {
+	background: red;
+	
+	transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+}
+
+#elem1 {
+	transition-duration: 1s;
+	transition-property: all;
+	border: 1px solid red;
+	height: 100px;
+	width: 300px;	
+}
+#elem1 p:hover {
+	color: white;
+}
+#elem1:hover {
+	background: red;
+	
+	transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+}
+
+#elem2 {
+	transition-duration: 1s;
+	transition-property: width;
+	
+	border: 1px solid red;
+	height: 50px;
+	width: 300px;
+}
+#elem2:hover {
+	width: 100%;
+	transition: width 1s;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;	
+}
+
+#elem3 {
+	background: white;
+	border: 1px solid red;
+	height: 100px;
+	width: 30%;
+    
+	font-size: 15px;
+}
+#elem3 p {
+	color: red;
+
+	transition-property: width, font-size;
+	transition: width 1s, 1s;
+    transition-duration: 1s, 1s;
+    transition-timing-function: ease-out, ease-out;
+    transition-delay: 0s, 0s;
+}
+#elem3:hover {
+	font-size: 25px;
+	width: 100%;
+}
+
+#elem4 {
+	background: white;
+	border: 1px solid red;
+	color: red;
+	height: 50px;
+	width: 30%;
+}
+#elem4:hover {
+	width: 70%;
+	margin-left: 10%;
+	transition: width 1s ease-out 0.2s, margin-left 1s ease-out 0.2s;
+}
+
+#elem5 {
+	background: white;
+    border: 1px solid red;
+    color: black;
+    width: 30%;
+    height: 50px;
+	
+}
+#elem5 p:hover {
+    text-indent: 2000px;
+	line-height: 50px;
+    text-align: center;
+    transition: 0s, 1s, text-indent 1s, linear, ease-out;
+	white-space: nowrap;
+	margin-left: 30%;
+}
+#elem5:hover {
+	color: black; text-indent: 0px; 
+	
+}
+
+#elem6 {
+	background: white;
+	border: 1px solid red;
+	color: black;
+	width: 30%;
+	height: 50px;
+
+	transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+    transition-delay: 3s;
+}
+#elem6:hover {
+	width: 100%;
+}
+________________________________________________
+
+#form1 {
+	width: 30%;
+	height: 30px;
+	padding: 0px 5px;
+	transition: all 1s ease-out;
+}
+#form1 [type="text" i] {
+	writing-mode: horizontal-tb !important;
+	/*margin: 0em;*/
+    padding: 1px 2px;
+	border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial
+
+}
+#form1:focus {
+	width: 50%;
+	box-shadow: 0px 0px 2px rgb(163, 31, 71);
+	color: blue; outline: none;
+}
+
+
+	
+

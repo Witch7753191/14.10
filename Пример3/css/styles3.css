@@ -1,0 +1,15 @@
+div{
+	background: white;
+	border: 1px solid red;
+	width: 30%;
+	height: 30px;
+	margin: 0px 0px 20px 20px;
+	transition: all 1s ease-out;
+}	
+div:last-child{
+	margin-bottom: 0;
+}
+div:hover + div{
+	width: 70%;
+}
+

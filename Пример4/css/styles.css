@@ -1,0 +1,21 @@
+.show{
+	background: white;
+	border: 1px solid red;
+	padding: 10px;
+ }
+ .hint{
+	 background: #f86565;
+	 width: 300px;
+	 height: 30px;
+	 line-height: 30px;
+	 margin: 20px 0px 0px -400px;
+	 padding: 10px;
+	 text-align: center;
+	 color: white;
+	 
+	 transition: all 1s ease-out;
+ }
+ .show:hover + .hint{ 	
+	 margin-left: 30%;
+ }
+ 
